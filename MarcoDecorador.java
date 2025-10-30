@@ -6,7 +6,7 @@ public class MarcoDecorador extends MensajeDecorador {
     @Override
     public String mostrar() {
         String contenido = mensaje.mostrar();
-        String borde = "*".repeat(contenido.length() + 4);
+        String borde = "-".repeat(contenido.length() + 4);
         return borde + "\n| " + contenido + " |\n" + borde;
     }
 }

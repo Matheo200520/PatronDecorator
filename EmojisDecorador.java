@@ -5,6 +5,6 @@ public class EmojisDecorador extends MensajeDecorador {
 
     @Override
     public String mostrar() {
-        return "😄 " + mensaje.mostrar() + " 💀";
+        return "💀 " + mensaje.mostrar() + " 💀";
     }
 }

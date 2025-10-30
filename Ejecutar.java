@@ -1,6 +1,6 @@
 public class Ejecutar {
     public static void main(String[] args) {
-        Mensaje mensaje = new MensajeSimple("Hola, Matheo!");
+        Mensaje mensaje = new MensajeSimple("Bienvenidos a Miranda!");
 
         // Sin decoración
         System.out.println("Mensaje original: " + mensaje.mostrar());
